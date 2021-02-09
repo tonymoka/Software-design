@@ -1,0 +1,132 @@
+/* General nav styling for all pages */
+
+body {
+  background: linear-gradient(to right, rgb(139, 158, 187), rgb(189, 168, 194));
+}
+nav {
+  background-color: hsl(0, 0%, 0%);
+}
+
+.main-nav {
+  display: flex;
+  list-style: none;
+  font-size: 1em;
+  margin: 0 10px;
+  font-family: fantasy cursive;
+}
+
+li {
+  padding: 15px;
+}
+
+a {
+  color: #f5f5f6;
+  text-decoration: none;
+}
+
+.push {
+  margin-left: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .main-nav {
+    font-size: 1.2em;
+    padding: 0;
+  }
+}
+
+/* General styling ends */
+
+/* home page styling */
+.bg1 {
+  background: url(./imgs/bg1.jpg) top left/cover no-repeat;
+  height: 400px;
+  background-blend-mode: lighten;
+  color: white;
+  text-align: center;
+  line-height: 400px;
+  font-size: 2em;
+}
+
+/* home page ends */
+/* Log in  */
+
+#container {
+  box-sizing: border-box;
+  border: solid 2px black;
+  width: 450px;
+  text-align: center;
+  margin: 50px auto 0;
+  padding: 10px;
+  font-size: 1.3em;
+  
+}
+
+h2,h3 {
+  font-size: 2em;
+  text-transform: uppercase;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 250px;
+  padding: 7px;
+  margin: 10px 0 15px;
+  border: solid 1px #ccc;
+
+}
+
+.button {
+  background-color: #fc3;
+  background: linear-gradient(#fc3, #f91);
+  color: #fff;
+  text-decoration: none ;
+  padding: 10px 20px;
+  border:solid 1px #f999;
+  text-shadow: 0 2px 4px #ddd;
+  position: relative;
+}
+
+.button:hover{
+  background: linear-gradient(#f91, #fc3);
+  border-color: black ;
+  top: 2px;
+}
+
+.button:active{
+  top: 2px;
+  color: #ddd;
+}
+
+.newm {
+  font-size: 15px;
+}
+
+.newr {
+  font-size: 15px;
+  text-decoration: underline;
+}
+
+.newr:hover {
+  bottom: 2px;
+}
+/* Log in page ends */
+
+/* Regitration page styling */
+
+#box {
+  box-sizing: border-box;
+  border: solid 2px black;
+  width: 550px;
+  height: 405px;
+  /* text-align: center; */
+  margin: 30px 10px;
+  padding: 7px;
+  font-size: 1em;
+}
+
+.redirect {
+  margin: 12px 0;
+  font-size: 0.8em;
+}
+/* registration ends */
