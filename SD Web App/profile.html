@@ -25,9 +25,16 @@
         <h1>Profile</h1>
         <p>Kindly complete your profile.</p>
         <label>
-            <form>
-                Full Name <input type="text" placeholder="Enter your full name" required><br>
-                Address 1 <input type="address" placeholder="Enter your complete address" required><br>
+
+            <FORM method="GET" action="form.html">
+                Type your first name: <INPUT TYPE="text" NAME="FirstName">
+                Type your last name: <INPUT TYPE="text" NAME="LastName">
+                <INPUT TYPE="submit" VALUE="Click and See">
+            </FORM>
+
+            <form METHOD="GET" ACTION="form.html">
+                Full Name <input type="text" maxlength="50" placeholder="Enter your full name" required><br>
+                Address 1 <input type="text" name="address" placeholder="Enter your complete address" required><br>
                 Address 2  <input type="address" placeholder=""><br>
                 City <input type="c.text"> <br>
                 State <select class="states">
@@ -84,7 +91,8 @@
                     <option value="Wyoming">WY</option>
                 </select>
                 ZIP Code <input type="numbers">	<br><br>
-                <a href="" class="button1">Submit Profile</a><br>	
+                <input type="submit" value="Submit Profile">
+                <a href="C:\Users\Admin\Software-design\SD Web App\form.html" class="button1">Submit Profile</a><br>	
             </form>
         </label>
 
